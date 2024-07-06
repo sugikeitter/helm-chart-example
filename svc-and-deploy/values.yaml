@@ -1,0 +1,2 @@
+image: public.ecr.aws/nginx/nginx:stable-alpine-slim
+replicas: 1
