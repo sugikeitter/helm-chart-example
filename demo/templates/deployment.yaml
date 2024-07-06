@@ -36,4 +36,4 @@ spec:
               fieldRef:
                 fieldPath: status.podIP
           - name: MESSAGE
-            value: “k8s pod”
+            value: {{ .Values.message }}
